@@ -29,8 +29,9 @@ class Channel
     /**
      * pop data from a channel
      * @param float $timeout
+     * @return mixed
      */
-    public function pop(float $timeout=0) {}
+    public function pop(float $timeout=0): mixed {}
 
     /**
      * get stats of channel

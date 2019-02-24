@@ -6,6 +6,10 @@ class Server {
 
     public $setting;
 
+    public $host;
+
+    public $port;
+
     /**
      * Server constructor.
      * @param string $host
